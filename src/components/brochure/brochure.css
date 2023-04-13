@@ -1,0 +1,43 @@
+.brochure{
+    position: absolute;
+width: 100vw;
+height: 440px;
+left: 0px;
+top: 72px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.heading{
+    position: absolute;
+width: 378px;
+height: 47px;
+left: 200px;
+top: 278px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.nextB{
+    position: absolute;
+width: 327px;
+height: 23px;
+left: 200px;
+top: 329px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+}

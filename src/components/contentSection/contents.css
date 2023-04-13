@@ -1,0 +1,49 @@
+.contents{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.leftContents{
+    flex: 1;
+    margin-right: 160px;
+}
+.rightContents{
+     margin-top: 660px;
+     margin-left: 290px;    
+     margin-right: 80px;
+    flex: .6;
+}
+.inputContent{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid teal;
+    justify-content: space-between;
+}
+.locationInput{
+    border: none;
+}
+.locationInput:focus{
+    outline: none;
+}
+
+.attached{
+    margin-top: 32px;
+    display: flex;
+}
+
+.textCont{
+    width: 220px;
+height: 32px;
+left: 1020px;
+top: 717px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+color: #000000;
+
+opacity: 0.5;
+}

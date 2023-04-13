@@ -1,0 +1,114 @@
+.cardContainer {
+    position: absolute;
+    width: 692px;
+    height: 472px;
+    left: 200px;
+    top: 628px;
+
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.tagCard {
+    /* position: absolute; */
+    width: 200px;
+    margin-top: 20px;
+    height: 25px;
+    margin-left: 20px;
+    /* top: 868px; */
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.line2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.line3 {
+    width: 400px;
+    height: 60px;
+    left: 220px;
+    top: 903px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 134.17%;
+}
+
+.line4 {
+    margin-top: 12px;
+    margin-left: 20px;
+    width: 652px;
+    height: 25px;
+    left: 240px;
+    top: 975px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 134.17%;
+    /* or 25px */
+
+
+    color: #5C5C5C;
+}
+
+.shareProfile{
+position: absolute;
+right: 20px;
+/* background: #EDEEF0; */
+border-radius: 2px;
+}
+
+.profile {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.leftProfile {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.name {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 10px;
+}
+
+.rightProfile {
+    flex: 0.5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.symbol{
+    position: absolute;
+right: 31.25%;
+top: 405px;
+
+}
+.profilePic {
+    margin-left: 10px;
+    margin-right: 10px;
+}
